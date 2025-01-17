@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'FoundersGrotesk-Semibold';
+    src: url('/src/assets/fonts/FoundersGrotesk-Semibold.ttf') format('truetype'); /* Replace with the correct path to your font */
+    font-weight: 700; /* Adjust based on the weight (Semi Bold in your case) */
+    font-style: normal;
+}
