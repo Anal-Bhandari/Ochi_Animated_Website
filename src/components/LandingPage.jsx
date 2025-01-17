@@ -24,7 +24,7 @@ function LandingPage() {
                     <div className='w-fit flex items-center justify-center'>
                         {idx===1 && (
                             <motion.div>
-                                <motion.img initial={{width: 0}} animate={{width: "8vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className='bg-cover mt-[9px] mr-5 w-[8vw] rounded-md h-[4.9vw] relative' src="./src/assets/ochi_logo.png" alt="" />
+                                <motion.img initial={{width: 0}} animate={{width: "8vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className='bg-cover mt-[9px] mr-5 w-[8vw] rounded-md h-[4.9vw] relative' src="./images/ochi_logo.png" alt="" />
                             </motion.div >
                         )}
                     <h1 className='uppercase text-8xl leading-none tracking-tighter font-bold'>{items}</h1>
